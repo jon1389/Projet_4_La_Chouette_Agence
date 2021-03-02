@@ -8,13 +8,11 @@ body {
 }
 
 a,
-button {
+button{
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
-a:hover {
-    
+a:hover {                       
     text-decoration: none;
     cursor: pointer;
 }
@@ -305,7 +303,6 @@ a:hover {
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
 }
 
 .navbar-brand img[src$=svg] {
@@ -331,6 +328,10 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+}
+
+.navbar-nav>li>a {
+    font-size: 20px;
 }
 
 .nav > li a:hover,
@@ -390,6 +391,9 @@ a:hover {
     .nav-center .nav > li {
         float: none;
         display: inline-block;
+    }
+    .navbar-brand img{
+
     }
     .nav-center .site-navigation {
         position: relative;
@@ -478,6 +482,11 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #2c2c2c!important;
+}
+
+.icon-md:hover{
+    color: #505050!important;
 }
 
 .icon-lg {
@@ -701,9 +710,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 100%;
     margin: auto auto auto auto;
 }
+
 
 h2 {
     font-size: 22px;
@@ -756,8 +766,15 @@ h4 {
     padding-bottom: 10px;
 }
 
+figcaption{
+    color: #575757;
+}
+
+.text-contact{
+    font-size: 15px;
+}
 .text-bg {
-    font-size: 22px;
+    font-size: 25px;
     max-width: 600px;
     margin: auto;
 }
@@ -769,6 +786,18 @@ h4 {
     margin: auto;
     padding-bottom: 10px;
 }
+
+.text-description{
+    font-size: 17px;
+}
+
+.text-description-bold{
+    font-size: 17px;
+    color: #2c2c2c!important;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -802,12 +831,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #2b2b2b!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -982,6 +1011,13 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
     }
     .navbar-brand img {
         max-height: 40px;
