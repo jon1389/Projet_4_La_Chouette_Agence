@@ -14,3 +14,6 @@ Voici les points à travailler :
   - Il faudra optimiser la taille et la vitesse de chargement du site
   - Il faudra veiller à l'accessibilité du site (WCAG)
 - Comparaison des résultats : La vitesse de chargement des pages du site a un impact sur notre classement dans les résultats de recherche. Dans tes différentes recommandations, j’aimerais que tu prennes des mesures pour accélérer la vitesse de chargement, et que tu me démontres que cela fonctionne, grâce à des captures d’écran comparatives entre la version du site actuelle et celle que tu auras optimisée, fourni dans un rapport d’optimisation. Ce rapport devra inclure les comparaisons pour les 10 recommandations.
+
+### Lien vers la page :
+https://jon1389.github.io/Projet_4_La_Chouette_Agence/
